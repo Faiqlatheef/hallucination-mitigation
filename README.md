@@ -1,13 +1,37 @@
-hallucination_mitigation/
-├── main.py
-├── grounded_generation.py
-├── fact_verification.py
-├── output_calibration.py
-├── prompt_engineering.py
-├── utils.py
-├── requirements.txt
-└── README.md
+# Hallucination Mitigation in Large Language Models
 
-Before running the code, ensure you have Python 3.7+ installed. Then, install the required packages:
-pip install -r requirements.txt
+## Overview
+
+This project implements techniques to reduce hallucinations in Large Language Models (LLMs) by integrating Grounded Generation, Fact Verification, Output Calibration, and Prompt Engineering.
+
+## Features
+
+- **Grounded Generation**: Retrieves relevant information from Wikipedia to ground the LLM's responses.
+- **Fact Verification**: Cross-checks generated statements against reliable sources.
+- **Output Calibration**: Allows the model to express uncertainty when necessary.
+- **Prompt Engineering**: Crafts prompts that guide the LLM towards accurate and reliable responses.
+
+## Setup
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Faiqlatheef/hallucination_mitigation.git
+   cd hallucination_mitigation
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Configure Environment Variables**
+   
+   Set your OpenAI API key:
+   ```bash
+   export OPENAI_API_KEY='your-api-key-here'
+
+4. **Usage**
+
+   Run the main script with predefined test prompts:
+    ```bash
+    python main.py
 
