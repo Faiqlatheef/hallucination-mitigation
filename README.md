@@ -16,8 +16,8 @@ This project implements techniques to reduce hallucinations in Large Language Mo
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Faiqlatheef/hallucination_mitigation.git
-   cd hallucination_mitigation
+   git clone https://github.com/Faiqlatheef/hallucination-mitigation.git
+   cd hallucination-mitigation
 
 2. **Install Dependencies**
    ```bash
